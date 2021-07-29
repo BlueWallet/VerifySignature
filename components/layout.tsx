@@ -16,10 +16,10 @@ export default function Layout({
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="favicon.ico" />
+        <link rel="icon" href="/VerifySignature/favicon.png" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content={name}
         />
         <meta
           property="og:image"

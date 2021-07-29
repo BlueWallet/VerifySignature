@@ -41,7 +41,7 @@ export default function Home() {
   const verify = () => {
     setIsVerified(false);
     try {
-      router.push(`/?a=${address}&m=${message}&s=${signature}`, null, { shallow: true });
+      router.push(`/?a=${address}&m=${encodeURIComponent(message)}&s=${encodeURIComponent(signature)}`, null, { shallow: true });
       const verified = bitcoinMessage.verify(message, address, signature, null, true);
       console.log({ message, address, signature, verified });
       setIsVerified(verified);
