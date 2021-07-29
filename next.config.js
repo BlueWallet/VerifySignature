@@ -1,3 +1,4 @@
 module.exports = {
-  basePath: '/verifysignature'
+  basePath: '/VerifySignature',
+  assetPrefix: '/VerifySignature/',
 }

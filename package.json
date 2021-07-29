@@ -5,7 +5,7 @@
     "dev": "next dev",
     "tslint": "tslint --fix -p . -c tslint.json ",
     "build": "next build",
-    "export": "rm -r -f out; next build && next export -o verifysignature",
+    "export": "rm -r -f VerifySignature; rm -r -f .next; next build && next export -o VerifySignature",
     "start": "next start"
   },
   "devDependencies": {
