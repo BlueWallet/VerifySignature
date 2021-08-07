@@ -27,9 +27,8 @@ npm i
 npm run export
 ```
 
-Built directory `verifysignature/` is ready to be hosted on the website.
-Or adjust `basePath` in `next.config.js` if you want to host it in root.
-
+And it is ready to be hosted on the website (should be served from `/VerifySignature/` path, i.e. `http://localhost:3000/VerifySignature`).
+Use `npm run dev` for development.
 
 License
 -------

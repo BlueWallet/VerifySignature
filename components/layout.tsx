@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Verify bitcoin address signature online';
-export const siteTitle = 'Verify bitcoin address online';
+export const siteTitle = 'Verify bitcoin address signature online';
 
 export default function Layout({
   children,
