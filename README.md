@@ -1,11 +1,18 @@
 Verify bitcoin address signature online
 =======================================
 
-Why? Because none of the existing pages on the interwebs are good, for example https://tools.bitcoin.com/verify-message/
-None of them could accept all the data via get parameters, and none of them were easily forkable to be hosted independently.
+Why? Because none of the existing pages on the interwebs are good. None of them could accept all the data via get parameters, 
+and none of them were easily forkable to be hosted independently.
     
 This implementation can accept get parameters, so it is linkable externally, and users could easily copy-paste one link to their counterparties to verify. 
 This should be useful for people who do OTC and regularly do proof-of-funds before the transaction.
+
+Try it
+------
+
+* hosted on https://bluewallet.github.io/VerifySignature
+* or try with get parameters: https://bluewallet.github.io/VerifySignature?a=1HvaxYmChk9nQUZx888a6hc7E8KnKP98ic&m=test&s=HCfgnEo8RNYTgcOXafAf11BQQ5LXSvlss0AbnezENbFJQzRl0dJRGOfYbOrOPkb2iPdj21Cty5G4paevOks%2FpJ4%3D
+* ...or short it https://bit.ly/3Gm85si
 
 Built with
 ----------
