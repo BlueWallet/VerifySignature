@@ -20,7 +20,7 @@ Built with
 * Next.js
 * Bitcoinjs
 * Typescript
-* Blockstream API (address balance)
+* Blockstream API (address balance 
 * ..compiles into static html files so it can run completely offline
 
 ![image](https://user-images.githubusercontent.com/1913337/127367603-0bff2674-07f0-4a4f-846d-b3a6fc7860db.png)
