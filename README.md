@@ -41,3 +41,20 @@ License
 -------
 
 MIT
+The fix is to authorize the GitHub integration for the repository you actually want to modify. scc/slash is owned by someone else, so you cannot grant yourself push access there.
+For BigKain, do this:
+Open your GitHub account → Settings
+Go to Applications → Installed GitHub Apps
+Find the ChatGPT/Codex GitHub integration.
+Choose Configure.
+Under Repository access, select Only select repositories.
+Add:
+Bigkain30/Bigkain30
+and any other BigKain repo you actually want modified.
+Make sure the app has Contents: Read and write.
+For workflows, enable Actions/Workflows write access if those permissions are available.
+Save/authorize the changes.
+Return here and I can test the connection again.
+Important: the scc/slash test cannot be turned green from your side unless the scc owner grants your GitHub account/app write access.
+For BigKain, the real green test is:
+Repository visible → push permission → create test branch → real commit → CI passes.
